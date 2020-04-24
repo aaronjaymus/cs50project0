@@ -1,0 +1,15 @@
+.class {
+
+}
+
+h1, h2, #opening, #closing{
+	text-align: center;
+}
+
+#mainImage {
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+  	width: 50%;
+}
+
