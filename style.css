@@ -1,6 +1,7 @@
 .text {
 	background-color: blue;
 	color: red;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 h1, h2, #opening, #closing{
@@ -11,6 +12,15 @@ h1, h2, #opening, #closing{
 	display: block;
   	margin-left: auto;
  	margin-right: auto;
-  	width: 50%;
+  	width: 100%;
+}
+
+#accolades {
+	text-align: center;
+	list-style: inside;
+}
+
+body {
+	background-color: lightgray;
 }
 
