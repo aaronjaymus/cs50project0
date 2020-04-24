@@ -1,5 +1,6 @@
-.class {
-
+.text {
+	background-color: blue;
+	color: red;
 }
 
 h1, h2, #opening, #closing{
