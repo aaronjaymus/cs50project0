@@ -1,26 +1,48 @@
-.text {
-	background-color: blue;
-	color: red;
-	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+.footer, .text {
+  background-color: blue;
+  color: red;
 }
 
-h1, h2, #opening, #closing{
-	text-align: center;
+.text {
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+h1, h2, #opening, #closing {
+  text-align: center;
 }
 
 #mainImage {
-	display: block;
-  	margin-left: auto;
- 	margin-right: auto;
-  	width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 #accolades {
-	text-align: center;
-	list-style: inside;
+  text-align: center;
+  list-style: inside;
 }
 
-body {
-	background-color: lightgray;
+div ul {
+  font-family: "Lucida Console", Courier, monospace;
+}
+div p {
+  font-family: "Comic Sans", Times, serif;
 }
 
+.footer {
+  text-align: right;
+}
+
+@media (min-width: 500px) {
+  body {
+    background-color: lightgray;
+  }
+}
+@media (max-width: 499px) {
+  body {
+    background-color: white;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

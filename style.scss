@@ -1,0 +1,54 @@
+$buffaloFont: red;
+$buffaloBackground: blue;
+
+%inheritText {
+	background-color: $buffaloBackground;
+	color: $buffaloFont;
+}
+.text {
+	@extend %inheritText;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+h1, h2, #opening, #closing{
+	text-align: center;
+}
+
+#mainImage {
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+  	width: 100%;
+}
+
+#accolades {
+	text-align: center;
+	list-style: inside;
+}
+
+
+div{
+	ul {
+		font-family: "Lucida Console", Courier, monospace;
+	}
+	p {
+		font-family: "Comic Sans", Times, serif;
+	}
+}
+
+.footer {
+	@extend %inheritText;
+	text-align: right;
+}
+
+@media (min-width: 500px) {
+	body {
+		background-color: lightgray;
+	}
+}
+
+@media (max-width: 499px) {
+	body {
+		background-color: white;
+	}
+}
